@@ -1,0 +1,39 @@
+﻿@model Customer
+
+@{
+    Layout = "_Layout";
+}
+
+<h2 style="text-align:center; color: #007BFF;">Yeni Müşteri Ekle</h2>
+
+<form method="post" class="container mt-4" style="max-width: 600px;">
+    <div class="form-group">
+        <label for="FirstName">İsim</label>
+        <input type="text" id="FirstName" name="FirstName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="LastName">Soyisim</label>
+        <input type="text" id="LastName" name="LastName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Phone">Telefon</label>
+        <input type="text" id="Phone" name="Phone" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Adres</label>
+        <input type="text" id="Address" name="Address" class="form-control" required />
+    </div>
+
+    <div class="form-group text-center">
+        <button type="submit" class="btn btn-success btn-lg">Kaydet</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary btn-lg" style="margin-left: 10px;">Geri</a>
+    </div>
+</form>

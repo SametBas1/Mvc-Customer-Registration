@@ -1,0 +1,48 @@
+﻿@model List<Customer>
+
+@{
+    Layout = "_Layout";
+}
+
+<h2 style="text-align:center; color: #007BFF;">Müşteri Listesi</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>İsim</th>
+                <th>Soyisim</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Adres</th>
+                <th>İşlem</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.LastName</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.Phone</td>
+                    <td>@customer.Address</td>
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = customer.Id })" class="btn btn-primary btn-sm">Düzenle</a>
+                        <a href="@Url.Action("Delete", new { id = customer.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?')">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p style="color: #FF6347; text-align:center;">Henüz hiç müşteri eklenmemiş.</p>
+}
+
+<div style="text-align:center; margin-top: 20px;">
+    <a href="@Url.Action("Create")" class="btn btn-success btn-lg">Müşteri Ekle</a>
+</div>
+
