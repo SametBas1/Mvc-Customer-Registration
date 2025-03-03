@@ -24,3 +24,12 @@ Proje dosyasını GitHub'dan bilgisayarınıza çekmek için terminal veya komut
 
 ```bash
 https://github.com/SametBas1/Mvc-Customer-Registration.git
+
+---
+
+# Uygulama Arayüzü
+
+İşte uygulamanın ana ekranı:
+
+![Uygulama Ekranı](foto/mvckayıt.png)
+
