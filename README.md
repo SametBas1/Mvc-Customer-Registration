@@ -23,4 +23,4 @@ Bu proje, ASP.NET Core MVC kullanarak basit bir müşteri kayıt yönetim sistem
 Proje dosyasını GitHub'dan bilgisayarınıza çekmek için terminal veya komut satırını açın ve şu komutu yazın:
 
 ```bash
-
+https://github.com/SametBas1/Mvc-Customer-Registration.git
