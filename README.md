@@ -16,6 +16,21 @@ Bu proje, ASP.NET Core MVC kullanarak basit bir müşteri kayıt yönetim sistem
 - Entity Framework Core (isteğe bağlı, veri tabanı bağlantısı için)
 - HTML, CSS (Basit kullanıcı arayüzü için)
 
+- # Uygulama Arayüzü
+
+İşte uygulamanın ana ekranı:
+
+![Uygulama Ekranı](https://github.com/SametBas1/Mvc-Customer-Registration/blob/main/Foto/mvckay%C4%B1t.jpg)
+---
+## Müşteri Ekleme Ekranı
+![Müşteri Ekleme Ekranı](https://github.com/SametBas1/Mvc-Customer-Registration/blob/main/Foto/mvckay%C4%B1t2.png)![asa](https://github.com/SametBas1/Mvc-Customer-Registration/blob/main/Foto/mvckay%C4%B1t3.png)
+---
+## Müşteri Düzenleme Ekranı
+![Müşteri Ekleme Ekranı](https://github.com/SametBas1/Mvc-Customer-Registration/blob/main/Foto/mvckay%C4%B1t4.png)
+
+
+
+
 ## Kurulum
 
 ### 1. Projeyi Çekme
